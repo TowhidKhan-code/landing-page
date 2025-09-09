@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* header section */
+
+.header{
+    background-color: #1f2937;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 16px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 160px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-title{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-shrink: 1;
+}
+
+.signup{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10%;
+    padding: 8px 24px;
+    margin-top: 8px;
+}
+
+.title{
+    display: flex;
+    margin: 100px 150px;
+    gap: 50px;
+}
+
+.placeholder{
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #36454f;
+    width: 1000px;
+    height: 23s0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* content section */
+
+.content-title{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 32px 0;
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 68px;
+}
+.info{
+    max-width: 200px;;
+}
+.text{
+    text-align: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-weight: 300;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 300px;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+
+.container{
+    background-color: #3882f6;
+    color: #fff;
+    margin: 100px;
+    border-radius: 2%;
+    height: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.new-container{
+    display: flex;
+    justify-content: center;
+}
+
+.new{
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+
+.main-text{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.sign-text{
+    color: #e5e7eb;
+}
+
+span{
+    font-size: 26px;
+    font-weight: 900;
+}
+
+/* footer section */
+
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
